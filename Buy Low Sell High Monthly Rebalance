@@ -69,7 +69,7 @@ def pflio(DF,m,x):
     """Returns cumulative portfolio return
     DF = dataframe with monthly return info for all stocks
     m = number of stock in the portfolio
-    x = number of underperforming stocks to be removed from portfolio monthly"""
+    x = number of highperforming stocks to be removed from portfolio monthly"""
     df = DF.copy()
     portfolio = []
     monthly_ret = [0]
